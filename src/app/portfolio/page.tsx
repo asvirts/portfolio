@@ -1,4 +1,4 @@
-import PortfolioItem from "@/components/PortfolioItem";
+import PortfolioItem from "./components/PortfolioItem";
 
 export default function Portfolio() {
   return (
