@@ -6,13 +6,23 @@ export default function Portfolio() {
       <PortfolioItem
         title="SpaceX"
         desc="Practicing querying an API with GraphQL in React."
+        link="https://github.com/asvirts/space-x"
       />
       <PortfolioItem
         title="Onyxia's Lair"
         desc="This is a text-based JavaScript game."
+        link="https://github.com/asvirts/onyxias-lair"
       />
-      <PortfolioItem title="Madlib" desc="Madlib game written in C#." />
-      <PortfolioItem title="Calculator" desc="React calulator" />
+      <PortfolioItem
+        title="Madlib"
+        desc="Madlib game written in C#."
+        link="https://github.com/asvirts/Madlib"
+      />
+      <PortfolioItem
+        title="Calculator"
+        desc="React calulator"
+        link="https://github.com/asvirts/React-Calculator-App"
+      />
     </main>
   );
 }
