@@ -1,8 +1,14 @@
+import Image from "next/image";
+
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="container md:w-2/6 sm:w-full">
+        <Image
+          src="https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMTktcGF0dGVybi1wci0wNmIuanBn.jpg"
+          alt="Jungle pattern background psd wild animals"
+        />
         <h1 className="font-bold text-2xl mb-3 block">
           Software Engineer on the Bayou
         </h1>
