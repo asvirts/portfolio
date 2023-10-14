@@ -6,8 +6,11 @@ export default function About() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="container md:w-2/6 sm:w-full">
         <Image
-          src="https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMTktcGF0dGVybi1wci0wNmIuanBn.jpg"
+          src="https://images.unsplash.com/photo-1693132038772-7ad13c7bad9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2585&q=80"
           alt="Jungle pattern background psd wild animals"
+          width={800}
+          height={600}
+          className="mb-5"
         />
         <h1 className="font-bold text-2xl mb-3 block">
           Software Engineer on the Bayou
