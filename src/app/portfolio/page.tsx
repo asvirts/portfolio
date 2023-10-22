@@ -10,7 +10,7 @@ export default function Portfolio() {
       />
       <PortfolioItem
         title="SpaceX"
-        desc="Practicing querying an API with GraphQL in React."
+        desc="Queries the API with GraphQL in React."
         link="https://github.com/asvirts/space-x"
       />
       <PortfolioItem
@@ -20,12 +20,12 @@ export default function Portfolio() {
       />
       <PortfolioItem
         title="Madlib"
-        desc="Madlib game written in C#."
+        desc="Text-based game written in C#."
         link="https://github.com/asvirts/Madlib"
       />
       <PortfolioItem
         title="Calculator"
-        desc="React calulator"
+        desc="React calculator"
         link="https://github.com/asvirts/React-Calculator-App"
       />
     </main>
