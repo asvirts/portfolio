@@ -4,6 +4,11 @@ export default function Portfolio() {
   return (
     <main className="flex flex-wrap container mx-auto min-h-screen items-center justify-between">
       <PortfolioItem
+        title="CFB Community Poll"
+        desc="Allows users to rank college football teams. Uses Svelte, Sveltekit, Supabase."
+        link="https://github.com/asvirts/cfb-community-poll"
+      />
+      <PortfolioItem
         title="SpaceX"
         desc="Practicing querying an API with GraphQL in React."
         link="https://github.com/asvirts/space-x"
