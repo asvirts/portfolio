@@ -7,7 +7,7 @@ export default function Portfolio() {
         <PortfolioItem
           title="CFB Community Poll"
           desc="Allows users to rank college football teams."
-          tech="Svelte, Sveltekit, Supabase, PostgreSQL"
+          tech="Svelte, Sveltekit, Supabase, PostgreSQL, Tailwind"
           link="https://github.com/asvirts/cfb-community-poll"
           img="https://camo.githubusercontent.com/4a501b54b2110c89849c1aab28b89424706623013601ab66d02940133c764838/68747470733a2f2f647862687372717972723639302e636c6f756466726f6e742e6e65742f7369646561726d2e6e65787467656e2e73697465732f726f6c6c746964652e636f6d2f696d616765732f323032312f31312f382f3131303632315f4d46425f416e646572736f6e57695f4c53555f5253333131352e6a7067"
         />
@@ -38,6 +38,13 @@ export default function Portfolio() {
           tech="React"
           link="https://github.com/asvirts/React-Calculator-App"
           img="https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&q=80&w=2650&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <PortfolioItem
+          title="Portfolio"
+          desc="This portfolio website."
+          tech="Next.js, React, Sanity, Tailwind"
+          link="https://github.com/asvirts/portfolio"
+          img="https://avatars.githubusercontent.com/u/96750426?v=4"
         />
       </div>
     </main>
