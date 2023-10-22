@@ -20,3 +20,10 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, #e2e8f0, #cbd5e1);
 }
+
+.portfolio-item {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
