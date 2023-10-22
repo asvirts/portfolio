@@ -2,7 +2,6 @@ import PortfolioItem from "../components/PortfolioItem";
 
 export default function Portfolio() {
   return (
-    // @ts-ignore
     <main className="flex flex-wrap container mx-auto min-h-screen items-center justify-between">
       <PortfolioItem
         title="CFB Community Poll"
