@@ -21,6 +21,10 @@ body {
   background: linear-gradient(to bottom, #334155, #0f172a);
 }
 
+a {
+  color: rgb(var(--foreground-rgb));
+}
+
 .portfolio-item {
   width: 100%;
   height: auto;
