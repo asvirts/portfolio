@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function PortfolioItem(props: any) {
   return (
     <a
@@ -21,7 +19,7 @@ export default function PortfolioItem(props: any) {
 
         <p className="mt-1.5 tracking-wide text-gray-900">{props.desc}</p>
         <small className="text-gray-400">
-          <strong>Tech Stack:</strong> {props.tech}
+          {props.tech}
         </small>
       </div>
     </a>
