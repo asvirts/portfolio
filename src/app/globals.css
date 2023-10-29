@@ -18,7 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, #e2e8f0, #cbd5e1);
+  background: linear-gradient(to bottom, #334155, #0f172a);
 }
 
 .portfolio-item {
