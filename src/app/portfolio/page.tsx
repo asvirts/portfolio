@@ -1,9 +1,16 @@
-import PortfolioItem from "../components/PortfolioItem";
+import PortfolioItem from "../components/PortfolioItem"
 
 export default function Portfolio() {
   return (
     <main className="container mx-auto min-h-screen">
       <div className="flex flex-wrap justify-center">
+        <PortfolioItem
+          title="Giphy Search"
+          desc="Find your next favorite GIF... the cool way"
+          tech="React, Next.js, Typescript, APIs, Tailwind"
+          link="https://github.com/asvirts/giphy-search"
+          img="https://front-end-dev-alpha.vercel.app/"
+        />
         <PortfolioItem
           title="CFB Community Poll"
           desc="Allows users to rank college football teams."
@@ -48,5 +55,5 @@ export default function Portfolio() {
         />
       </div>
     </main>
-  );
+  )
 }
