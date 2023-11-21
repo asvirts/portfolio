@@ -9,7 +9,7 @@ export default function Portfolio() {
           desc="Find your next favorite GIF... the cool way"
           tech="React, Next.js, Typescript, APIs, Tailwind"
           link="https://github.com/asvirts/giphy-search"
-          img="https://front-end-dev-alpha.vercel.app/"
+          img="https://camo.githubusercontent.com/1e9481a8186553af39b570e642d047bd4574b50280c6ea1890cd9c9dfc760629/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3145543768526c43635a4c75452f67697068792e676966"
         />
         <PortfolioItem
           title="CFB Community Poll"
@@ -45,13 +45,6 @@ export default function Portfolio() {
           tech="React"
           link="https://github.com/asvirts/React-Calculator-App"
           img="https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&q=80&w=2650&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        />
-        <PortfolioItem
-          title="Portfolio"
-          desc="This portfolio website."
-          tech="Next.js, React, Sanity, Tailwind"
-          link="https://github.com/asvirts/portfolio"
-          img="https://avatars.githubusercontent.com/u/96750426?v=4"
         />
       </div>
     </main>
