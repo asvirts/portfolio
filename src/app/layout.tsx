@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="bg-gradient-to-b from-slate-100 to-slate-300">
         <nav
           className="flex container mx-auto items-center justify-between p-6 lg:px-8"
           aria-label="Global"
