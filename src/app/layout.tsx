@@ -74,7 +74,7 @@ export default function RootLayout({
             </Link>
             <Link
               className="text-sm font-semibold leading-6 text-gray-900"
-              href="blog.virts.dev"
+              href="https://blog.virts.dev"
             >
               Blog
             </Link>
