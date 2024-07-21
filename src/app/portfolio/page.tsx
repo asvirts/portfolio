@@ -5,6 +5,13 @@ export default function Portfolio() {
     <main className="container mx-auto min-h-screen">
       <div className="flex flex-wrap justify-center">
         <PortfolioItem
+          title="Pomodoro"
+          desc="Unlock Your Focus, One Pomodoro at a Time."
+          tech="Flutter, Dart, Riverpod, "
+          link="https://github.com/asvirts/pomodoro"
+          img="https://camo.githubusercontent.com/3de310c47ce0aff7fd290cac6652f68bd14a40f8b9a42d43c03bb8fef936a452/68747470733a2f2f6d656469612e6c6963646e2e636f6d2f646d732f696d6167652f433445313241514547397a62586136523159772f61727469636c652d636f7665725f696d6167652d736872696e6b5f3732305f313238302f302f313536373437323539313530363f653d3231343734383336343726763d6265746126743d734776575a4f63415856376a444d6d654144315f7a766946483972316e722d735a59597a70306357776d34"
+        />
+        <PortfolioItem
           title="Giphy Search"
           desc="Find your next favorite GIF... the cool way"
           tech="React, Next.js, Typescript, APIs, Tailwind"
@@ -19,18 +26,10 @@ export default function Portfolio() {
           img="https://images.unsplash.com/photo-1581007871115-f14bc016e0a4?q=80&w=2766&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
         <PortfolioItem
-          title="CFB Community Poll"
-          desc="Allows users to rank college football teams."
-          tech="Svelte, Sveltekit, Supabase, PostgreSQL, Tailwind"
-          link="https://github.com/asvirts/cfb-community-poll"
-          img="https://camo.githubusercontent.com/4a501b54b2110c89849c1aab28b89424706623013601ab66d02940133c764838/68747470733a2f2f647862687372717972723639302e636c6f756466726f6e742e6e65742f7369646561726d2e6e65787467656e2e73697465732f726f6c6c746964652e636f6d2f696d616765732f323032312f31312f382f3131303632315f4d46425f416e646572736f6e57695f4c53555f5253333131352e6a7067"
-        />
-        <PortfolioItem
           title="Onyxia's Lair"
           desc="(Mostly) text-based browser game."
           tech="Vanilla JavaScript, CSS"
-          link="https://github.com/asvirts/onyxias-lair"
-          img="https://camo.githubusercontent.com/a172192ac10868a05ca8e319a3a1bada512614c1691ed6a9c0fe18f9555c7a95/68747470733a2f2f7374617469632e77696b69612e6e6f636f6f6b69652e6e65742f776f7770656469612f696d616765732f642f64322f576f575f436c61737369635f4f6e797869612e6a70672f7265766973696f6e2f6c61746573742f7363616c652d746f2d77696474682d646f776e2f313030303f63623d3230313930393130303031343134"
+          link="https://i.pinimg.com/originals/19/f1/ca/19f1ca5691f3f85b4f105463dce89fa5.jpg"
         />
         <PortfolioItem
           title="Madlib"
