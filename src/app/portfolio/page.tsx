@@ -1,16 +1,9 @@
-import PortfolioItem from "../components/PortfolioItem"
+import PortfolioItem from "../components/PortfolioItem";
 
 export default function Portfolio() {
   return (
     <main className="container mx-auto min-h-screen">
       <div className="flex flex-wrap justify-center">
-        <PortfolioItem
-          title="Pomodoro"
-          desc="Unlock Your Focus, One Pomodoro at a Time."
-          tech="Flutter, Dart, Riverpod, "
-          link="https://github.com/asvirts/pomodoro"
-          img="https://t4.ftcdn.net/jpg/08/29/52/97/360_F_829529710_3GtyPgMV8wUjd7lpik1C7iZ9f8OFR84A.jpg"
-        />
         <PortfolioItem
           title="Giphy Search"
           desc="Find your next favorite GIF... the cool way"
@@ -19,11 +12,18 @@ export default function Portfolio() {
           img="https://blog.hootsuite.com/wp-content/uploads/2022/06/How-to-Make-a-GIF-1.gif"
         />
         <PortfolioItem
-          title="TaskWallet"
-          desc="Your tasks, with you everywhere."
-          tech="React, Next.js, Supabase, Tailwind"
-          link="https://github.com/asvirts/task-wallet"
+          title="Contacts"
+          desc="App to store personal contacts."
+          tech="Ruby on Rails, SQL, Bootstrap"
+          link="https://github.com/asvirts/contacts"
           img="https://images.unsplash.com/photo-1581007871115-f14bc016e0a4?q=80&w=2766&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <PortfolioItem
+          title="Pomodoro"
+          desc="Unlock Your Focus, One Pomodoro at a Time."
+          tech="Flutter, Dart, Riverpod, "
+          link="https://github.com/asvirts/pomodoro"
+          img="https://t4.ftcdn.net/jpg/08/29/52/97/360_F_829529710_3GtyPgMV8wUjd7lpik1C7iZ9f8OFR84A.jpg"
         />
         <PortfolioItem
           title="Onyxia's Lair"
@@ -48,5 +48,5 @@ export default function Portfolio() {
         />
       </div>
     </main>
-  )
+  );
 }
