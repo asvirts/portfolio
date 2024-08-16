@@ -19,6 +19,13 @@ export default function Portfolio() {
           img="https://images.unsplash.com/photo-1581007871115-f14bc016e0a4?q=80&w=2766&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
         <PortfolioItem
+          title="Calculator"
+          desc="Calculator to calculate stuff."
+          tech="C#, .NET, WPF, XAML"
+          link="https://github.com/asvirts/calculator"
+          img="https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&q=80&w=2650&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <PortfolioItem
           title="Pomodoro"
           desc="Unlock Your Focus, One Pomodoro at a Time."
           tech="Flutter, Dart, Riverpod, "
@@ -38,13 +45,6 @@ export default function Portfolio() {
           tech="C#"
           link="https://github.com/asvirts/Madlib"
           img="https://www.haleyproductions.com/wp-content/uploads/2019/08/MadLibs-TeamBuilding.png"
-        />
-        <PortfolioItem
-          title="Calculator"
-          desc="Calculator to calculate stuff."
-          tech="React"
-          link="https://github.com/asvirts/React-Calculator-App"
-          img="https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&q=80&w=2650&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </div>
     </main>
